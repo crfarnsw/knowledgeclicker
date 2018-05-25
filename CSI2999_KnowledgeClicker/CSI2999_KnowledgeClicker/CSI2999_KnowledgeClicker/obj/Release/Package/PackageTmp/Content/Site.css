@@ -1,0 +1,255 @@
+﻿
+html, body {
+    height: 100%;
+    color:black   !important;
+}
+
+#holder {
+    min-height: 100%;
+    position: relative;
+}
+
+#body {
+    padding: 10px;
+    padding-bottom: 60px; /* height of 
+        */
+}
+
+.glyphicon {
+    color: #ff9c00;
+}
+
+.navbar {
+    /*background-color: #484848 !important;*/
+    color: gray !important;
+    font-weight: bold;
+}
+
+nav {
+    text-align: center;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+    a.active:active {
+        background-color: white !important;
+    }
+
+    a:hover {
+        background-color: #812121 !important;
+    }
+
+/*footer {
+    width: 100%;
+    position: absolute;
+    background-color: rgba(51, 51, 51, 0.71);
+    color: rgba(255, 255, 255, 0.80) !important;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}*/
+#container {
+    height:100%;
+}
+html,
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+#container {
+    min-height:100%;
+    position:relative;
+}
+#header {
+    background:#ff0;
+    padding:10px;
+}
+#body {
+    padding:10px;
+    padding-bottom:60px;   /* Height of the footer */
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Height of the footer */
+    background-color: rgba(51, 51, 51, 0.71);
+    color: rgba(255, 255, 255, 0.80) !important;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Height of the footer */
+    background-color: rgba(51, 51, 51, 0.71);
+    text-align: center;
+}
+
+a.footer {
+    color: rgba(255, 255, 255, 0.80) !important;
+    font-weight: bold
+}
+
+    a.footer:hover {
+        background-color: black !important;
+    }
+
+body {
+    color:white;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../Images/Background2.png);
+    background-size: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+/* Move down content because we have a fixed navbar that is 50px tall */
+/*
+.container.body-content{
+    height: 1067px;
+}
+.brainBackground {
+    background-image: url(../Images/Background2.png);
+}
+div.row{
+    width:1366px;
+}
+*/
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/*body, html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-color: #d3d3d3;
+    font-family: 'Oxygen', sans-serif;
+}*/
+
+.main{
+    margin-top: 70px;
+}
+
+h1.title { 
+    font-size: 50px;
+    font-family: 'Passion One', cursive; 
+    font-weight: 400; 
+}
+
+hr{
+    width: 10%;
+    color: #fff;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+label{
+    margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.main-login{
+    background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-center{
+    margin-top: 30px;
+    margin: 0 auto;
+    max-width: 330px;
+    padding: 40px 40px;
+
+}
+
+.login-button{
+    margin-top: 5px;
+}
+
+.login-register{
+    font-size: 11px;
+    text-align: center;
+}
+
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+/**Login*/
